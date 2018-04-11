@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+.logoDiv{
+	height: 200px;
+    background-color:#dfdddd;
+	background-image: url(image/logo1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.formSetting {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    position: absolute;
+    top: 170px;
+    background-color: white;
+    left: 30%;
+    right: 30%;
+}
+.freebirdAccentBackground {
+    background-color: rgb(221, 47, 133);
+    color: rgba(0, 0, 0, 1);
+    height: 8px;
+}
+.textSetting{
+	padding:10px;
+}
+.section-block{
+	background-color: rgb(114, 19, 66);
+    color: white;
+    padding: 5px;
+    font: 400 16px/24px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.row{
+	margin-left:0px !important;
+}
+@media only screen and (max-width: 800px) {
+    .formSetting{
+    	width: 80%;
+	    margin: 0 auto;
+	    border: 1px solid #bebaba;
+	    position: absolute;
+	    top: 170px;
+	    background-color: white;
+	    left: 10%;
+	    right:10%;
+    } 
